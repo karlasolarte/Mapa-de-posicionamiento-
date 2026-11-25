@@ -134,7 +134,7 @@ fig.update_layout(
     plot_bgcolor="white", paper_bgcolor="white",
     margin=dict(l=90, r=90, t=135, b=100), width=1000, height=765,
     annotations=list(fig.layout.annotations) + [dict(
-        text=(f"Precio equivalente a 30 ml, consultado el {FECHA_PRECIOS} sin promociones. "
+        text=(f"Precio equivalente a 30 ml, consultado el {FECHA_PRECIOS} a precio habitual (sin promociones). "
               "Especialización (1-3) según los beneficios declarados por cada marca."
               "<br>Pasa el ratón por un círculo para ver el precio de cada marca."),
         align="left", yanchor="top",
